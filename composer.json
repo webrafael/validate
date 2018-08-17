@@ -1,0 +1,21 @@
+{
+    "name": "webrafael/validate",
+    "description": "System validation",
+    "type": "library",
+    "version":"1.0",
+    "authors": [
+        {
+            "name": "Rafael ANdrade",
+            "email": "web.andrade@hotmail.com",
+            "role": "creator"
+        }
+    ],
+    "require": {
+        "php": ">=7.0"
+    },
+    "autoload":{
+        "psr-4": {
+            "Validate":"src/WebRafael/Validate"
+        }
+    }
+}
